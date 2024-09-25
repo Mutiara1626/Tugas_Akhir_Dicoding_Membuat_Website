@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     dropdownBtn.textContent = 'Menu';
     dropdownBtn.id = 'dropdownBtn';
     
+    //KIKI
     const nav = document.querySelector('nav');
     nav.insertBefore(dropdownBtn, nav.firstChild);
 
